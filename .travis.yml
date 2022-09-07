@@ -1,0 +1,15 @@
+language: python
+
+python:
+  - "3.6.13"
+
+install:
+  - pip install -r requirements.txt
+  - pip install codecov
+  - pip install pytest-cov
+
+script:
+  - py.test --cov-report=xml --cov=deeptabular tests
+
+after_success:
+- codecov
