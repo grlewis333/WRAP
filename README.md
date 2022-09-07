@@ -1,3 +1,5 @@
+[![Build Status](https://app.travis-ci.com/grlewis333/WRAP.svg?branch=main)](https://app.travis-ci.com/grlewis333/WRAP)
+
 # WRAP
 WRAP is an improved reconstruction algorithm for magnetic electron tomography data.
 
