@@ -15,7 +15,7 @@ install:
   # Useful for debugging any issues with conda
   - conda info -a
 
-  - conda env create -f WRAP_env.yml
+  - conda create -n WRAP_env --file requirements.txt
 
   - conda activate WRAP_env 
 
