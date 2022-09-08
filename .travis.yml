@@ -22,11 +22,14 @@ install:
 
   # - conda install -c conda-forge -c astra-toolbox -c numba -c anaconda astra-toolbox=1.8.3 jupyterlab jupyter_client=7.1.0 jupyter_server=1.13.1 numpy scipy matplotlib scikit-image numba cython pywavelets jupyterlab_widgets ipympl ipywidgets
   - pip install libertem --ignore-installed --user
+  - pip install coverage
   - pip install codecov
   - pip install pytest-cov
 
 script:
-  - py.test --cov-report=xml --cov=deeptabular tests
+  - coverage run -m unittest discover
+  #- py.test --cov-report=xml --cov=deeptabular tests
 
 after_success:
-- codecov
+  - bash <(curl -s https://codecov.io/bash)
+  #- codecov
