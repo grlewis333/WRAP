@@ -20,6 +20,6 @@ Contents
 
 .. toctree::
 
-   Setup
-   Usage
-   Citation
+   setup
+   usage
+   citation
