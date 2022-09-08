@@ -1,4 +1,4 @@
-Usage
+Setup
 =====
 
 
@@ -12,8 +12,8 @@ Otherwise, WRAP should run fine on all operating systems and coding environments
 It is optimised to be set-up using conda and run inside Jupyter Notebooks.
 
 
-Setup
-----------------
+Installation
+------------
 
 * Option 1: Create your conda environment using the provided WRAP_env.yml file by downloading the file and typing :code:`conda env create -f WRAP_env.yml`. Note this will only work for Windows users.
 
