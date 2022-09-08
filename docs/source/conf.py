@@ -2,11 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'WRAP'
+author = 'George R. Lewis'
 
-release = '0.1'
 version = '0.1.0'
 
 # -- General configuration
