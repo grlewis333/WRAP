@@ -15,7 +15,7 @@ install:
   # Useful for debugging any issues with conda
   - conda info -a
 
-  - conda create -n WRAP_env --file requirements.txt
+  - conda create -n WRAP_env --file requirements.txt -c conda-forge -c astra-toolbox -c numba -c anaconda
 
   - conda activate WRAP_env 
 
