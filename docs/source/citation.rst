@@ -11,4 +11,4 @@ Lewis, G., Ringe, E., & Midgley, P. (2022). Imaging Nanomagnetism in 3D: Potenti
 
 .. _doi:10.1017/S1431927622009801: https://www.cambridge.org/core/journals/microscopy-and-microanalysis/article/imaging-nanomagnetism-in-3d-potential-improvements-for-vector-electron-tomography-reconstruction/EFC9214DCB1FA2C0CA7B99ACF030A147
 
-Lewis, G., Ringe, E., & Midgley, P. (2022). WRAP: A Compressed Sensing Reconstruction Algorithm for Magnetic Vector Electron Tomography. Ultramicroscopy, [In preparation]
+Lewis, G., et al. (2022). WRAP: A Compressed Sensing Reconstruction Algorithm for Magnetic Vector Electron Tomography. Ultramicroscopy, [In preparation]
