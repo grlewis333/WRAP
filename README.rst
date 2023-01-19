@@ -12,7 +12,9 @@ WRAP is an improved reconstruction algorithm for magnetic electron tomography da
 .. image:: docs/sphere_orthoslices.gif
 
 To install and use WRAP, please ensure your device has a CUDA-enabled graphics card. We recommned using conda to manage packages, two installation options include:
+
 * Create your conda environment using the provided .yml file by downloading the file and typing :code:`conda env create -f WRAP_env.yml` (this yml is configured for Windows)
+
 * Add the necessary modules to your own environment by typing :code:`conda install -c conda-forge -c astra-toolbox -c numba -c anaconda astra-toolbox=1.8.3 jupyterlab jupyter_client=7.1.0 jupyter_server=1.13.1 numpy scipy matplotlib scikit-image numba cython pywavelets jupyterlab_widgets ipympl ipywidgets`, followed by :code:`pip install libertem --ignore-installed --user`
 
 Basic use of WRAP is demonstrated in the WRAP_demo.ipynb python notebook.
